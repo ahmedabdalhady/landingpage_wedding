@@ -65,7 +65,7 @@
     height:70%;
 }
 .content .cont{
-    padding-left: 15px;
+    /* padding-left: 15px; */
     align-items: center;
     text-align: center;
     padding-top: 120px;
@@ -94,9 +94,14 @@
         align-items: center;
         flex-direction: column;
         }
-        .header .container{
+    .content .img_landing{
+            width:90%;
+            height:90%;
+        }
+    .header .container{
             display: flex;
-            justify-content: space-between;
+            justify-content:space-around;
+            flex-wrap: wrap;
             align-items: center;
             flex-direction: column;
         }
