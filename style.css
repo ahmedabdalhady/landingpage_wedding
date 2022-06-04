@@ -38,6 +38,8 @@
     list-style: none;
     display: flex;
     justify-content: center;
+    padding: 0px;
+    margin: 0px;
 }
 .header .container .links ul li a{
     display: block;
