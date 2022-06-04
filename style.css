@@ -94,20 +94,22 @@
         align-items: center;
         flex-direction: column;
         }
+    .header .container .links ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+    }
     .content .img_landing{
             width:90%;
             height:90%;
         }
-    .header .container .links ul li a{
-            display: block;
-            text-decoration: none;
-            padding: 10px;
-            color: #343d4e;
-            font-size: 15px;
-        }
     .header .container{
             display: flex;
-            justify-content:space-around;
+            justify-content:center;
             flex-wrap: wrap;
             align-items: center;
             flex-direction: column;
