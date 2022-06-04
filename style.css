@@ -98,6 +98,13 @@
             width:90%;
             height:90%;
         }
+    .header .container .links ul li a{
+            display: block;
+            text-decoration: none;
+            padding: 10px;
+            color: #343d4e;
+            font-size: 15px;
+        }
     .header .container{
             display: flex;
             justify-content:space-around;
